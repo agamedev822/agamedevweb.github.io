@@ -3,6 +3,41 @@
   src: url('fonts/JetbrainsMono-Regular.woff2') format('woff2');
 }
 
+@font-face {
+  font-family: 'jbmb';
+  src: url('fonts/JetbrainsMono-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'jbmi';
+  src: url('fonts/JetbrainsMono-Italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'jbmbi';
+  src: url('fonts/JetbrainsMono-Bolditalic.woff2') format('woff2');
+}
+
+b {
+  font-family: 'jbmb';
+}
+
+i {
+  font-family: 'jbmi';
+}
+
+bi {
+  font-family: 'jbmbi';
+}
+
 h1 {
-  font-family: jbmn;
+  font-family: 'jbmn';
+}
+
+p {
+  font-family: 'jbmn';
+}
+
+button {
+  font-family: 'jbmn';
 }
